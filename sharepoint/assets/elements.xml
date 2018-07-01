@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ScrollableSpBanner"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="5d4f94f2-94c4-4d3e-a7ef-14e7ab418c0c"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

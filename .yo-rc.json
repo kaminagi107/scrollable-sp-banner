@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.5.1",
+    "libraryName": "scrollable-sp-banner",
+    "libraryId": "7107b9a3-27ee-4bca-a2cf-f03950868073",
+    "packageManager": "npm",
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
