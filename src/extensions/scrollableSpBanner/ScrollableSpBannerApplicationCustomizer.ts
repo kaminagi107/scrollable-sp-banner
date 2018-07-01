@@ -27,12 +27,12 @@ export default class ScrollableSpBannerApplicationCustomizer
   public onInit(): Promise<void> {
     Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
 
-    let message: string = this.properties.testMessage;
-    if (!message) {
-      message = '(No properties were provided.)';
-    }
+    let styles = `div[class*="mainContent"] {overflow-y: auto;}div[class*="pageLayout"], div[class*="scrollRegion"] {overflow: visible !important;}`;
+    let bannerStyle = document.createElement('style');
+    bannerStyle.type = 'text/css';
+    bannerStyle.appendChild(document.createTextNode(styles));
 
-    Dialog.alert(`Hello from ${strings.Title}:\n\n${message}`);
+    document.getElementsByTagName('HEAD')[0].appendChild(bannerStyle);
 
     return Promise.resolve();
   }
