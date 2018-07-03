@@ -7,8 +7,8 @@
     "includeClientSideAssets": true,
     "features": [
       {
-        "title": "Application Extension - Deployment of custom action.",
-        "description": "Deploys a custom action with ClientSideComponentId association",
+        "title": "Scrollable SP Banner SPFx Extensions",
+        "description": "This solution will be enable scroll your Communication site banner.",
         "id": "58bdbf4c-cd21-471b-8be6-d7651ac27560",
         "version": "1.0.0.0",
         "assets": {
